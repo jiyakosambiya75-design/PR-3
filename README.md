@@ -31,15 +31,15 @@ This project breaks down advanced data organization into simple, bite-sized comp
 We used a combination of primary Python concepts to build a stable, loop-driven environment:
 
 * 🗂️ Lists – Acting as our primary data vault to store the entire collection of student profiles.
-* 
+ 
 * 📚 Dictionaries – Used to build the individual profiles, mapping keys like "ID" and "Name" to their values.
-* 
+  
 * 📅 Tuples – Perfect for securely sealing static, unchangeable records like a student's Date of Birth.
-* 
+  
 * 🎯 Sets – Utilized for student subjects to avoid duplicate subjects and easily collect unique fields.
-* 
+  
 * 🔁 Control Flow Loops – Using while and for loops to keep the program open and run continuous searches.
-* 
+  
 * 🔀 Conditional Logic – Driven by if-elif-else branches to navigate choices smoothly based on what you select.
 
 ------------------------------
