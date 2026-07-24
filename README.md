@@ -86,6 +86,12 @@ We plan to expand this basic version into an enterprise-ready system with these 
 * 📁 Excel & CSV Export – Allowing teachers to save student sheets directly into Microsoft Excel formatting.
 * 🎨 Graphical User Interface (GUI) – Building a clickable layout window using Tkinter instead of standard terminal inputs.
 
+##👤 Author
+Jiya
+
+linkdin: www.linkedin.com/in/jiya-kosambiya-86306141b
+Email: jiyakosambiya75@gmail.com
+
 ------------------------------
 ## 📜 License
 This utility application is fully Open-Source and Free to Use under the MIT License. Feel free to learn from it, share it with classmates, or expand its features! 🎉
