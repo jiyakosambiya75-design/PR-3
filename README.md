@@ -46,7 +46,16 @@ We used a combination of primary Python concepts to build a stable, loop-driven 
 
 ## 📊 Complete Data Blueprint
 Here is a visual idea of how information is packed and processed behind the scenes inside this tool:
-
+📦 Student Collection List
+ ├── 📝 Student Profile 1 (Dictionary)
+ │    ├── 🆔 ID: "101"
+ │    ├── 👤 Name: "Your Name"
+ │    ├── 🎂 Age: 18
+ │    ├── 🏆 Grade: "A"
+ │    ├── 📅 DOB: ("DD", "MM", "YYYY")  <-- Secured as a Tuple!
+ │    └── 📚 Subjects: {"Math", "Science"} <-- Cleaned via a Set!
+ └── 📝 Student Profile 2 (Dictionary)
+ 
 📦 Student Collection List
  ├── 📝 Student Profile 1 (Dictionary)
  │    ├── 🆔 ID: "101"
