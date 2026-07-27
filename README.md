@@ -70,6 +70,7 @@ We plan to expand this basic version into an enterprise-ready system with these 
 * 📈 Performance Insights – Automatic calculation of class averages and grade distributions.
 * 📁 Excel & CSV Export – Allowing teachers to save student sheets directly into Microsoft Excel formatting.
 * 🎨 Graphical User Interface (GUI) – Building a clickable layout window using Tkinter instead of standard terminal inputs.
+## Explanation Video: https://drive.google.com/file/d/1-PTWVQ6kGvBaGCZfg513xsurVo8sKWLa/view?usp=sharing
 
 ##👤 Author
 Jiya
