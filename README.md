@@ -43,21 +43,27 @@ We used a combination of primary Python concepts to build a stable, loop-driven 
 * 🔀 Conditional Logic – Driven by if-elif-else branches to navigate choices smoothly based on what you select.
 
 ------------------------------
-┌────────────────────────────────────────────────────────────────────────┐
-│ 📦 STUDENT COLLECTION LIST (Data Type: List)                           │
-└───────────────────┬────────────────────────────────────────────────────┘
-                    │
-                    ├─── [ 📝 Student Profile 1 ] (Data Type: Dictionary)
-                    │     ├── 🆔 ID       : "101"
-                    │     ├── 👤 Name     : "Your Name"
-                    │     ├── 🎂 Age      : 18
-                    │     ├── 🏆 Grade    : "A"
-                    │     ├── 📅 DOB      : ("DD", "MM", "YYYY")  <-- 🔒 Secured as a Tuple!
-                    │     └── 📚 Subjects : {"Math", "Science"}   <-- 🧼 Cleaned via a Set!
-                    │
-                    └─── [ 📝 Student Profile 2 ] (Data Type: Dictionary)
-                          ├── 🆔 ID       : "102"
-                          └── ... (Same Structure)
+========================================================================
+ 📥 MAIN CONTAINER: LIST [ ... ] 
+   (Order maintain rakhta hai aur sabhi profiles ko hold karta hai)
+========================================================================
+   │
+   ├── 📂 PROFILE 1: DICTIONARY { Key : Value }
+   │     │ (Har student ki alag pehchan/properties store karta hai)
+   │     │
+   │     ├── 🆔 ID       ──► [ "101" ]         (String)
+   │     ├── 👤 Name     ──► [ "Your Name" ]   (String)
+   │     ├── 🎂 Age      ──► [ 18 ]            (Integer)
+   │     ├── 🏆 Grade    ──► [ "A" ]           (String)
+   │     │
+   │     ├── 📅 DOB ─────► 🔒 TUPLE ( "DD", "MM", "YYYY" )
+   │     │                  (Immutable: Yeh data freeze rehta hai)
+   │     │
+   │     └── 📚 Subjects ─► 🧼 SET { "Math", "Science" }
+   │                        (Unique: Duplicate values block ho jaati hain)
+   │
+   └── 📂 PROFILE 2: DICTIONARY { Key : Value }
+         └── ... (Same logic repeats for next student)
 
 ------------------------------
 ## 🌟 Why This Project is Awesome
